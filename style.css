@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background: #f2f3f4;
 }
 canvas {
   display: block;
@@ -11,6 +12,12 @@ canvas {
     margin: auto;
     display: block;
     width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* a {
@@ -33,5 +40,5 @@ p {
     position: absolute;
     top: 90%;
     transform: translate(0, -50%);              
-}
 
+}
